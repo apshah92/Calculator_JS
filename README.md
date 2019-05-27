@@ -1,2 +1,2 @@
-# JavaScript_Calculator
+# Calculator_JS
 Simple Calculator app using JavaScript
