@@ -1,0 +1,37 @@
+body {
+    margin:0;
+    padding: 0;
+}
+
+#calculator {
+    box-sizing: border-box;
+    margin-top: 100px;
+    margin-left : auto;
+    margin-right: auto;
+    height:400px;
+    width : 300px;
+    border : 1px solid black ;
+
+}
+
+#resultPannel {
+    text-align: right;
+    font-size: 3em;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 0px;
+}
+
+.col-1 {width : 25%;}
+.col-2 {width : 50%;}
+.col-3 {width : 75%;}
+.col-4 {width : 100%;}
+
+.row-1 {height : 16.66%;}
+.row-2 {height: 33.33%;}
+.row-3 {height : 50%;}
+.row-4 {height : 66.66%;}
+.row-5 {height : 83.33%;}
+.row-6 {height : 100%;}

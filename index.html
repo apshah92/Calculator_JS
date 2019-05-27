@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Calculator App</title>
+        <link rel="stylesheet" href="index.css"/>
+    </head>
+    <body onload="addListeners()">
+        <div id="main-container">
+            <div id="calculator">
+                    <div id="resultPannel" class="col-4 row-2" ></div>
+                    <div id="inputPannel" class="col-4">
+                        <button value="1" class="col-1 row-1 literal padIn">1</button>
+                        <button value="2" class="col-1 row-1 literal padIn">2</button>
+                        <button value="3" class="col-1 row-1 literal padIn">3</button>
+                        <button value="+" class="col-1 row-1 literalOp padIn">+</button>
+
+                        <button value="4" class="col-1 row-1 literal padIn">4</button>
+                        <button value="5" class="col-1 row-1 literal padIn">5</button>
+                        <button value="6" class="col-1 row-1 literal padIn">6</button>
+                        <button value="-" class="col-1 row-1 literalOp padIn">-</button>
+
+                        <button value="7" class="col-1 row-1 literal padIn">7</button>
+                        <button value="8" class="col-1 row-1 literal padIn">8</button>
+                        <button value="9" class="col-1 row-1 literal padIn">9</button>
+                        <button value="*" class="col-1 row-1 literalOp padIn">*</button>
+
+                        <button value="C" class="col-1 row-1 padIn" onclick="reset()">C</button>
+                        <button value="0" class="col-1 row-1 literal padIn">0</button>
+                        <button value="=" class="col-1 row-1 result padIn" onclick="displayResult()">=</button>
+                        <button value="/" class="col-1 row-1 literalOp padIn">/</button>
+                    </div>
+            </div>
+        </div>
+        <script src="calc.js"></script>
+    </body>
+</html>
